@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\pte">
+      <UniqueIdentifier>{19ec720a-d859-4f48-84c1-9097ff4d50ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pte">
+      <UniqueIdentifier>{7e8de494-4273-4e12-87ed-2840a97feaac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pte\intel">
+      <UniqueIdentifier>{c6519f55-96a3-4e4e-b3d6-b5b35d784d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\other">
+      <UniqueIdentifier>{3119b0a9-04db-4ea9-a23a-03558c36cec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\other\runtime">
+      <UniqueIdentifier>{467d5528-3429-42e1-85b8-c8fbd624c529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\other">
+      <UniqueIdentifier>{c39ff4e2-eb4d-4dea-ace5-5eb40fd55b4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="globlal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pte.cpp">
+      <Filter>Source Files\pte</Filter>
+    </ClCompile>
+    <ClCompile Include="other.cpp">
+      <Filter>Source Files\other</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ia32.h">
+      <Filter>Header Files\pte\intel</Filter>
+    </ClInclude>
+    <ClInclude Include="pte.h">
+      <Filter>Header Files\pte</Filter>
+    </ClInclude>
+    <ClInclude Include="runtime.h">
+      <Filter>Header Files\other\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="other.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

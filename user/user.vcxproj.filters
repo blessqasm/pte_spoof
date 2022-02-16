@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\mapper">
+      <UniqueIdentifier>{5e3bfd47-194a-4dce-9d3c-77cd4a5f1aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\mapper\kdmapper">
+      <UniqueIdentifier>{2e7f3f97-1836-4afa-8be4-352e71d9ff2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\mapper">
+      <UniqueIdentifier>{551b19c5-a94b-4994-9aaf-8e6a32a06e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\mapper\kdmapper">
+      <UniqueIdentifier>{5ace8574-6e00-442d-a611-1c1c1601c852}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="mapper.cpp">
+      <Filter>Исходные файлы\mapper</Filter>
+    </ClCompile>
+    <ClCompile Include="intel_driver.cpp">
+      <Filter>Исходные файлы\mapper\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="kdmapper.cpp">
+      <Filter>Исходные файлы\mapper\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="pe.cpp">
+      <Filter>Исходные файлы\mapper\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="service.cpp">
+      <Filter>Исходные файлы\mapper\kdmapper</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Исходные файлы\mapper\kdmapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="global.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="mapper.h">
+      <Filter>Файлы заголовков\mapper</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_driver.h">
+      <Filter>Файлы заголовков\mapper\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="intel_driver_resource.h">
+      <Filter>Файлы заголовков\mapper\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="kdmapper.h">
+      <Filter>Файлы заголовков\mapper\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="nt.h">
+      <Filter>Файлы заголовков\mapper\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>Файлы заголовков\mapper\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Файлы заголовков\mapper\kdmapper</Filter>
+    </ClInclude>
+    <ClInclude Include="service.h">
+      <Filter>Файлы заголовков\mapper\kdmapper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
